@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.content-container {
+    top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-container .colors, .fonts, .text-styles {
+    height: auto;
+    border: 2px solid black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#text-styles-container {
+  text-align: left;
+}
+
+.content-container .colors {
+    margin-left: 5px;
+}
+
+.content-container .fonts {
+    margin: 0 10px;
+}
+
+.content-container .text-styles {
+    margin-right: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    grid-gap: 3px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.bisque {
+    background-color: bisque;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.burlywood {
+    background-color: burlywood;
+}
+
+.chartreuse {
+    background-color: chartreuse;
+}
+
+.chocolate {
+    background-color: chocolate;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.khaki {
+    background-color: khaki;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.turquiose {
+    background-color: turquoise;
+}
+
+.gainsboro {
+    background-color: gainsboro;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.lavender {
+    background-color: lavender;
+}
+
+.lawngreen {
+    background-color: lawngreen;
+}
+
+.navy {
+    background-color: navy;
+}
+
+.maroon {
+    background-color: maroon;
+}
+
+.white {
+    background-color: white;
+}
+
+.fonts-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    grid-gap: 3px;
+  }
+
+  .item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .roboto h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .roboto .one {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .roboto .two {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  .roboto .three {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  .work-sans h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .work-sans .one {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .work-sans .two {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .work-sans .three {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .merriweather h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .merriweather .one {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .merriweather .two {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+  }
+
+  .merriweather .three {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+  }
+
+  .lato h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .lato .one {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .lato .two {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+
+  .lato .three {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  .poppins h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .poppins .one {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .poppins .two {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  .poppins .three {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+  .text-styles .roboto {
+      font-family: "Roboto", sans-serif;
+  }
+
+  .text-styles .work-sans {
+    font-family: "Work Sans", sans-serif;
+}
+
+.text-styles .merriweather {
+    font-family: "Merriweather", sans-serif;
+}
+
+.text-styles .lato {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+
+
+  
+
+
+
+
+
+  
